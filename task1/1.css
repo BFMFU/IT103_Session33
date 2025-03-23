@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.password-container {
+    position: relative;
+    width: 300px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
